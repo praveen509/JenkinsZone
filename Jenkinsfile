@@ -1,13 +1,10 @@
-pipeline{
-    agent {
-        label 'rhel'
-    }
+pipeline {
 
     stages{
 
         stage('Pull Repo'){
             steps {
-                git 'https://github.com/asquarezone/spring-petclinic.git'
+                git 'https://github.com/praveen509/PraveenTestProject.git'
                 
             }
         }
